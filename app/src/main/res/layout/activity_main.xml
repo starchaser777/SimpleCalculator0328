@@ -13,14 +13,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/editHint"
-        android:layout_marginBottom="@dimen/marginLarge"/>
+        android:layout_marginBottom="@dimen/marginLarge"
+        android:textSize="@dimen/textSizeMedium"
+        android:inputType="numberDecimal"/>
 
     <EditText
         android:id="@+id/edit2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/editHint"
-        android:layout_marginBottom="@dimen/marginLarge"/>
+        android:layout_marginBottom="@dimen/marginLarge"
+        android:textSize="@dimen/textSizeMedium"
+        android:inputType="numberDecimal"/>
 
     <Button
         android:id="@+id/btnPlus"
@@ -51,6 +55,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnDivide"
+        android:textSize="@dimen/textSizeMedium"
+        android:layout_marginBottom="@dimen/marginLarge"/>
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMod"
         android:textSize="@dimen/textSizeMedium"
         android:layout_marginBottom="@dimen/marginLarge"/>
 
